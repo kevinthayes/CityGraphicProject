@@ -55,7 +55,7 @@ public class LineUp extends JComponent //implements Runnable
 
 
       //setBackground (Color.black); //sets the color of background
-      //setSize (APPLET_WIDTH, APPLET_HEIGHT); //Sets up applet window
+      setSize (600, 800); //Sets up applet window
 
       //figure2.draw(page);
 
@@ -79,37 +79,12 @@ public class LineUp extends JComponent //implements Runnable
       //Thread t1 = new Thread(ground);
       //t1.start();
 
-      /*
-      int newHeight = HEIGHT_MIN + generator.nextInt(VARIANCE);
-      figure1.setHeight(newHeight);
-      newHeight = HEIGHT_MIN + generator.nextInt(VARIANCE);
-      figure2.setHeight(newHeight);
-      newHeight = HEIGHT_MIN + generator.nextInt(VARIANCE);
-      figure3.setHeight(newHeight);
-      newHeight = HEIGHT_MIN + generator.nextInt(VARIANCE);
-      figure4.setHeight(newHeight);
-      */
-      //try{
-          //pause program for quarter-sec (in miliseconds)
-          //Thread.sleep(250);
-        //}
-      //catch(InterruptedException e){}
-
-      //figure1.draw(page);
-
-      //repaint(); //IMPORTANT LINE
+    
    }
 
    public void nextFrame()
    {
-       //figure1.setHeight(HEIGHT_MIN + generator.nextInt(VARIANCE));
-       //figure2.setHeight(HEIGHT_MIN + generator.nextInt(VARIANCE));
-       //figure3.setHeight(HEIGHT_MIN + generator.nextInt(VARIANCE));
-       //figure4.setHeight(HEIGHT_MIN + generator.nextInt(VARIANCE));
-       //running ++;
-       //ground.setX(running);
-       //Thread t1 = new Thread(ground);
-       //t1.start();
+
 
        repaint();
 
